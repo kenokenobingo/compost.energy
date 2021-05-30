@@ -4,6 +4,6 @@
 
 # Repositories
 
-* Gartenlaube: [GitHub](https://github.com/kenokenobingo/gartenlaube) | [Radicle](rad:git:hnrkxh6eq99j48qjm49hucd5fhp9wxqrcbeso)
-* Gartenlaube Contracts: [GitHub](https://github.com/kenokenobingo/gartenlaube-contracts/) | [Radicle](rad:git:hnrkx34ytbmju44hfq6atrdszssry7gjogiko)
+* Gartenlaube: [GitHub](https://github.com/kenokenobingo/gartenlaube) \| [Radicle](rad:git:hnrkxh6eq99j48qjm49hucd5fhp9wxqrcbeso)
+* Gartenlaube Contracts: [GitHub](https://github.com/kenokenobingo/gartenlaube-contracts/) \| [Radicle](rad:git:hnrkx34ytbmju44hfq6atrdszssry7gjogiko)
 * Gartenschlauch
