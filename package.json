@@ -1,0 +1,27 @@
+{
+  "name": "compost.energy",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenokenobingo/compost.energy.git"
+  },
+  "author": "kenokenobingo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kenokenobingo/compost.energy/issues"
+  },
+  "homepage": "https://github.com/kenokenobingo/compost.energy#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "eleventy-plugin-lazyimages": "^2.1.0"
+  },
+  "devDependencies": {
+    "markdown-it": "^10.0.0",
+    "markdown-it-footnote": "^3.0.3"
+  }
+}
