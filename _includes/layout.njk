@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Keno" />
+    <meta name="description" content="{{metadata.description}}" />
+    <meta name="keywords" content="{{metadata.keywords}}" />
+
+    <meta property="og:title" content="{{metadata.title}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+
+    <title>{{ metadata.title }}</title>
+
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/img/favicon.png"/>
+
+  </head>
+  <body>
+    <header>
+      <div id="title">
+        <a href="/"><h1>{{ metadata.title }}</h1></a>
+      </div>
+    </header>
+    <main>
+      <div id="main">
+        {{ content | safe }}
+      </div>
+    </main>
+  </body>
+</html>
