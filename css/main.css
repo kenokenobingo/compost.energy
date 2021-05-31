@@ -53,13 +53,13 @@ a {
 
 h1 {
   font-family: 'Basteleur', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 50pt;
+  font-size: 30pt;
   color: #000;
 }
 
 h2 {
   font-family: 'Basteleur', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 25pt;
+  font-size: 15pt;
   color: #000;
 }
 
@@ -75,7 +75,7 @@ ul li {
 p, ul, ol {
   padding-left: 0;
   line-height: 1.5em;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 ol {
