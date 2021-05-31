@@ -1,7 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,900,900i&display=swap&subset=latin-ext');
+/* import weird serif font: Basteleur */
+@font-face {
+  font-family: "Basteleur";
+  src: url("./Basteleur-Bold.woff"), url("./Basteleur-Bold.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* import sans-serif font: Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+/* import monospace font: Plex Mono */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
 body {
-  font-family: 'Muli', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -13,7 +25,7 @@ header {
 }
 
 main {
-  padding-left: 8em;
+  padding-left: 2em;
   margin-bottom: 4em;
   width: 50%;
   min-height: 100vh;
@@ -32,35 +44,9 @@ footer {
   clear: both;
 }
 
-footer:active {
-  background-color: rgba(51,255,51,0.5);
-}
-
 article div {
   width: 50rem;
 }
-
-input {
-  color: #000;
-  font-family: 'Muli', 'Helvetica Neue', Helvetica, sans-serif;
-  padding: 5pt 100pt;
-  font-size: 20pt;
-  width: 90vw;
-  height: 2em;
-  margin-left: -8rem;
-  border-width: 0 0 2pt 0;
-  border-style: solid;
-  border-color: #000;
-  border-radius:0;
-  -webkit-appearance: none;
-  -webkit-border-radius:0; 
-}
-
-#app {
-  padding-left: 1em;
-  width: 100%;
-}
-
 a {
   text-decoration: none;
   color: #0000ee;
@@ -68,22 +54,9 @@ a {
 
 h1 {
   margin: 0 0 4rem 0;
+  font-family: 'Basteleur', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 50pt;
   color: #000;
-  text-transform: uppercase;
-}
-
-h2 {
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 12pt;
-  font-weight: 900;
-}
-
-#author {
-  font-style: italic;
 }
 
 li {
@@ -115,10 +88,6 @@ img {
 
 hr {
   color: #000 solid;
-}
-
-.number {
-  font-weight: 900;
 }
 
 @media (max-width: 1000px) {
@@ -164,16 +133,4 @@ hr {
     width: 100%;
     margin: 0;
   }
-
-  .articlelist {
-    position: relative;
-    width: 90%;
-  }
-
-  #app {
-    width: 100%;
-    margin: 0;
-    padding: 0 0 5pt 0;
-  }
 }
-
