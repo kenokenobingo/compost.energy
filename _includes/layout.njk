@@ -13,8 +13,6 @@
 
     <title>{{ metadata.title }}</title>
 
-    <script src="https://unpkg.com/lunr/lunr.js"></script>
-
     <link rel="stylesheet" href="{{ '/css/main.css' | url }}" />
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
@@ -26,11 +24,15 @@
       <div id="title">
         <a href="/"><h1>{{ metadata.title }}</h1></a>
       </div>
+      <div id="chat">
+        <a href="cabal://9069f63d7eb05644d1553a192c5c13a6e402479ed884f844ec7c26d70192d93b">Cabal chat</a>
+      </div>
     </header>
     <main>
       <div id="main">
         {{ content | safe }}
       </div>
     </main>
+
   </body>
 </html>

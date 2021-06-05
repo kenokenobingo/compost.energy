@@ -55,6 +55,7 @@ h1 {
   font-family: 'Basteleur', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 30pt;
   color: #000;
+  margin-bottom: 3rem;
 }
 
 h2 {
@@ -69,13 +70,16 @@ li {
 } 
 
 ul li {
-  list-style-type: none;
+  list-style-type: "☞ ";
 }
 
 p, ul, ol {
-  padding-left: 0;
   line-height: 1.5em;
   font-size: 14pt;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
 }
 
 ol {
@@ -83,11 +87,39 @@ ol {
   padding-left: 1em;
 }
 
+figure {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption{
+  margin-top: 5pt;
+  font-size: 10pt;
+  font-style: italic;
+}
+
 img {
   display: block;
   width: 100%;
-  max-width: 100%;
   height: auto;
+  margin: 0;
+  padding: 0;
+  cursor: help;
+}
+
+#title {
+  vertical-align: baseline;
+  float: left;  
+}
+
+#chat {
+  display: flex;
+  vertical-align: baseline;
+  float: right;
+  margin-top: 2rem;
+  margin-right: 2rem;
 }
 
 hr {

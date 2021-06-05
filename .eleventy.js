@@ -8,28 +8,22 @@ module.exports = function(eleventyConfig) {
       html: true
     };
 
+    eleventyConfig.addShortcode("figure", require("./utils/figure.js"));
+
     eleventyConfig.addPassthroughCopy('img');
     eleventyConfig.addPassthroughCopy('css');
 
     eleventyConfig.addPlugin(lazyImagesPlugin, {
-      imgSelector: 'article img'  
+      imgSelector: 'img'  
     });
 
     let markdownLib = markdownIt(options).use(markdownItFootnote);
     eleventyConfig.setLibrary("md", markdownLib);
-
-    eleventyConfig.addCollection("articles", (collection) =>
-      collection.getFilteredByGlob("articles/*.md").sort((a, b) => {
-        if (a.data.id > b.data.id) return 1;
-        else if (a.data.id < b.data.id) return -1;
-        else return 0;
-      })
-    );
   
     eleventyConfig.setBrowserSyncConfig({
       callbacks: {
         ready: function(err, browserSync) {
-          const content_404 = fs.readFileSync('_site/404.html');
+          const content_404 = fs.readFileSync('_site/404/index.html');
   
           browserSync.addMiddleware('*', (req, res) => {
             // Provides the 404 content without redirect.
