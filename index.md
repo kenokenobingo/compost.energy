@@ -14,7 +14,7 @@ Componics is a framework, both technological and political for governing small a
 
 {% figure "warnhorn.png" "Warnhorn." %}
 
-The [_Warnhorn_](https://www.dropbox.com/s/djdju0uh6bnfcqx/warnhorn.stl?dl=1) sounds when a drought.
+The [_Warnhorn_](https://www.dropbox.com/s/djdju0uh6bnfcqx/warnhorn.stl?dl=1) sounds when there’s a drought.
 
 {% figure "componics.png" "Componics." %}
 
