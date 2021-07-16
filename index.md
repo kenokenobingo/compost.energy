@@ -14,11 +14,11 @@ Componics is a framework, both technological and political for governing small a
 
 {% figure "warnhorn.png" "Warnhorn." %}
 
-The [_Warnhorn_](https://www.dropbox.com/s/djdju0uh6bnfcqx/warnhorn.stl?dl=0) sounds when a drought.
+The [_Warnhorn_](https://www.dropbox.com/s/djdju0uh6bnfcqx/warnhorn.stl?dl=1) sounds when a drought.
 
 {% figure "componics.png" "Componics." %}
 
-The [_Componics_ apparatus](https://www.dropbox.com/s/tvx5c78c74ovr8e/componics.stl?dl=0) generates heat from compost, while also offering fertile humus for plants to be planted in the same container.
+The [_Componics_ apparatus](https://www.dropbox.com/s/tvx5c78c74ovr8e/componics.stl?dl=1) generates heat from compost, while also offering fertile humus for plants to be planted in the same container.
 
 ## World
 
