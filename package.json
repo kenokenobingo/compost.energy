@@ -18,7 +18,7 @@
   "homepage": "https://github.com/kenokenobingo/compost.energy#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "eleventy-plugin-lazyimages": "^2.1.0"
+    "eleventy-plugin-lazyimages": "^2.1.2"
   },
   "devDependencies": {
     "markdown-it": "^13.0.1",
