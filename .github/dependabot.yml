@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: npm-check-updates
+    versions:
+    - 16.6.2
+    - 11.1.1
+    - 11.1.4
+    - 11.1.8
+    - 11.1.9
+    - 11.2.0
+    - 11.2.1
+    - 11.2.2
+    - 11.3.0
+    - 11.4.1
+    - 11.5.1
+    - 11.5.3
+  - dependency-name: y18n
+    versions:
+    - 5.0.8
+    - 4.0.1
+    - 4.0.2
