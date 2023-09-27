@@ -21,7 +21,7 @@
     "eleventy-plugin-lazyimages": "^2.1.2"
   },
   "devDependencies": {
-    "markdown-it": "^13.0.1",
+    "markdown-it": "^13.0.2",
     "markdown-it-footnote": "^3.0.3"
   }
 }
